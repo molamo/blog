@@ -5,8 +5,41 @@
     <link rel="self" type="application/atom+xml" href="https://molamo.github.io/blog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-08-01T00:00:00+00:00</updated>
+    <updated>2024-08-02T00:00:00+00:00</updated>
     <id>https://molamo.github.io/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>丟上網路ㄌ</title>
+        <published>2024-08-02T00:00:00+00:00</published>
+        <updated>2024-08-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              KalaKala
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/5-host-on-github-page/"/>
+        <id>https://molamo.github.io/blog/blog/5-host-on-github-page/</id>
+        
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/5-host-on-github-page/">&lt;p&gt;每天都在能完成跟不能完成當日挑戰的邊緣反復橫跳，基本上還是能驚險地完成&lt;&#x2F;p&gt;
+&lt;p&gt;下定決心今天來把檔案丟到 GitHub 上用 GitHub Pages 呈現網站結果，本來是想要用一下 GitHub Actions 來個 commit 後自動佈署，無奈今天腦容量不夠多到能理解這件事，所以還是先手動處理，比較有空時再來研究&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;建置出完整的靜態網站，檔案會在publish資料夾中，整份丟到 GitHub 上就可以&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;zola build
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+&lt;li&gt;git &lt;code&gt;ignore&lt;&#x2F;code&gt; 資料夾，平常用 obsidian 開 &lt;code&gt;content&lt;&#x2F;code&gt; 當儲存庫，除了原本 &lt;code&gt;publish&lt;&#x2F;code&gt; 資料夾外， obsidian 的設定資料夾也過濾掉&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;content&#x2F;.obsidian&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;public&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;目前就是開一個公開儲存庫放建置後的網站，一個私人的放原本的原始檔，麻煩甚麼的應該也還好，反正也沒人規定我當天寫完一定要當天發，對吧?&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>起床的契機</title>
         <published>2024-08-01T00:00:00+00:00</published>

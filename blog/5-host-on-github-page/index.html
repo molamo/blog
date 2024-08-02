@@ -59,71 +59,33 @@
         
         <main>
             
-            <h1>Index</h1>
-            <div class="border"></div>
-                <ul>
-                
-                
-                    
-                    <li>
-                    <a href="https://molamo.github.io/blog/blog/">
-                        Blogs
-                    </a>
-                    </li>
-                    
-                    <ul>
-                        
-                        <li>
-                        <a href="https://molamo.github.io/blog/blog/5-host-on-github-page/">
-                            2024-08-02 丟上網路ㄌ
-                        </a>
-                        </li>
-                        
-                        <li>
-                        <a href="https://molamo.github.io/blog/blog/4-get-up/">
-                            2024-08-01 起床的契機
-                        </a>
-                        </li>
-                        
-                        <li>
-                        <a href="https://molamo.github.io/blog/blog/3-gym-trainning/">
-                            2024-07-31 重訓紀錄
-                        </a>
-                        </li>
-                        
-                        <li>
-                        <a href="https://molamo.github.io/blog/blog/2-thoughts-about-ai-and-search/">
-                            2024-07-30 ChatGPT 與 google
-                        </a>
-                        </li>
-                        
-                        <li>
-                        <a href="https://molamo.github.io/blog/blog/1-zola-first-day-copy/">
-                            2024-07-29 zola first day
-                        </a>
-                        </li>
-                        
-                    </ul>
-                    
-                
-                    
-                    <li>
-                    <a href="https://molamo.github.io/blog/Notes/">
-                        Note
-                    </a>
-                    </li>
-                    
-                
-                    
-                    <li>
-                    <a href="https://molamo.github.io/blog/about/">
-                        About
-                    </a>
-                    </li>
-                    
-                
-                </ul>
-            
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <div itemprop="headline">
+        <h1>丟上網路ㄌ</h1>
+        <div class="border"></div>
+        <time datetime="2024-08-02" class="date" itemprop="datePublished">
+            02 Aug 2024
+        </time>
+    </div>
+    <div itemprop="articleBody">
+        <p>每天都在能完成跟不能完成當日挑戰的邊緣反復橫跳，基本上還是能驚險地完成</p>
+<p>下定決心今天來把檔案丟到 GitHub 上用 GitHub Pages 呈現網站結果，本來是想要用一下 GitHub Actions 來個 commit 後自動佈署，無奈今天腦容量不夠多到能理解這件事，所以還是先手動處理，比較有空時再來研究</p>
+<ul>
+<li>建置出完整的靜態網站，檔案會在publish資料夾中，整份丟到 GitHub 上就可以</li>
+</ul>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>zola build
+</span></code></pre>
+<ul>
+<li>git <code>ignore</code> 資料夾，平常用 obsidian 開 <code>content</code> 當儲存庫，除了原本 <code>publish</code> 資料夾外， obsidian 的設定資料夾也過濾掉</li>
+</ul>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>content/.obsidian/
+</span><span>public/
+</span></code></pre>
+<p>目前就是開一個公開儲存庫放建置後的網站，一個私人的放原本的原始檔，麻煩甚麼的應該也還好，反正也沒人規定我當天寫完一定要當天發，對吧?</p>
+
+    </div>
+</article>
+
         </main>
         
         <footer>
