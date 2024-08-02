@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://molamo.github.io/blog/</loc>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/Notes/</loc>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/about/</loc>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/blog/</loc>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/blog/1-zola-first-day-copy/</loc>
+        <lastmod>2024-07-29</lastmod>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/blog/2-thoughts-about-ai-and-search/</loc>
+        <lastmod>2024-07-30</lastmod>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/blog/3-gym-trainning/</loc>
+        <lastmod>2024-07-31</lastmod>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/blog/4-get-up/</loc>
+        <lastmod>2024-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://molamo.github.io/blog/tags/</loc>
+    </url>
+</urlset>
