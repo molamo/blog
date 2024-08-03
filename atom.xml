@@ -5,8 +5,40 @@
     <link rel="self" type="application/atom+xml" href="https://molamo.github.io/blog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-08-02T00:00:00+00:00</updated>
+    <updated>2024-08-03T00:00:00+00:00</updated>
     <id>https://molamo.github.io/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>雜感</title>
+        <published>2024-08-03T00:00:00+00:00</published>
+        <updated>2024-08-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              KalaKala
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/6-thought-about-article/"/>
+        <id>https://molamo.github.io/blog/blog/6-thought-about-article/</id>
+        
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/6-thought-about-article/">&lt;p&gt;今天出門前，跟洗澡後都量了一下體重，體重感覺又降了些，應該是好事吧，雖然我這兩天有點想買 strong 來喝(?&lt;&#x2F;p&gt;
+&lt;p&gt;剛剛 gen 網站來看時，發現昨天設定的 obsidian 模板變數會影響 zola 建置，只能先把日期從設定區搬下來了，哭r&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;今天在 HackNews 上看到了 &lt;a href=&quot;https:&#x2F;&#x2F;jimmyhmiller.github.io&#x2F;ugliest-beautiful-codebase&quot;&gt;&quot;We ran out of columns&quot; - The best, worst codebase&lt;&#x2F;a&gt;這篇文章跟
+&lt;a href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41146239&quot;&gt;相關討論&lt;&#x2F;a&gt;，實在是太精采了，就文章內容來看，整個系統充滿了&lt;strong&gt;前人留下的傑作&lt;&#x2F;strong&gt;與正在崗位上為了讓事情更順利而&lt;strong&gt;創造新的作品&lt;&#x2F;strong&gt;，文情並茂充滿血淚(?，真的很值得細細品嘗&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Did you know that SQL Server has a limit on the number of columns you can have in a table? Me neither. At the time it was 1024, today it appears to be 4096. Needless to say, most people don&#x27;t need to know this. We did. The reason, Merchants (our table to store customer information) ran out of columns a long time ago. Merchants2 was the solution. A table with (if I remember correctly) some 500+ columns itself.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;這段文字我才知道資料庫的欄位有1024個然後真的有系統會把它們全用光...甚至追加第二張資料表來處理，雖然我不是很擅長正規化，但是也該稍微拆一下吧www一張表有1024個欄位，光想就讓我覺得頭皮發麻&lt;&#x2F;p&gt;
+&lt;p&gt;從開始寫程式以來，幾乎都是接手現有系統的功能添加或是 bug 處理，畢竟是在台灣這樣軟體環境，很容易遇到不是由老手設計開發的程式，剛開始還會覺得不耐煩，怎麼老是遇到那種看起來是因為半成品而造成的問題要處理，久了也就能夠理解，這些東西可能都有不得已的苦衷才會變成這樣，說不定也可能是因為當初的我太菜，才會無法很快參透問題點w&lt;&#x2F;p&gt;
+&lt;p&gt;就算我自己，也常常對於弄完的東西感到後悔甚至想翻掉，不過，已在死線上就也只能讓它硬著頭皮上戰場ww&lt;&#x2F;p&gt;
+&lt;p&gt;想當然之後再也沒有多的精力(aka 工作時數)回來做調整...&lt;&#x2F;p&gt;
+&lt;p&gt;不是人家留 bug 給你，就是你留 bug 給人家，這就是人生吧(菸&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>丟上網路ㄌ</title>
         <published>2024-08-02T00:00:00+00:00</published>
@@ -24,6 +56,7 @@
         <id>https://molamo.github.io/blog/blog/5-host-on-github-page/</id>
         
         <content type="html" xml:base="https://molamo.github.io/blog/blog/5-host-on-github-page/">&lt;p&gt;每天都在能完成跟不能完成當日挑戰的邊緣反復橫跳，基本上還是能驚險地完成&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;下定決心今天來把檔案丟到 GitHub 上用 GitHub Pages 呈現網站結果，本來是想要用一下 GitHub Actions 來個 commit 後自動佈署，無奈今天腦容量不夠多到能理解這件事，所以還是先手動處理，比較有空時再來研究&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;建置出完整的靜態網站，檔案會在publish資料夾中，整份丟到 GitHub 上就可以&lt;&#x2F;li&gt;
@@ -57,6 +90,7 @@
         <id>https://molamo.github.io/blog/blog/4-get-up/</id>
         
         <content type="html" xml:base="https://molamo.github.io/blog/blog/4-get-up/">&lt;p&gt;最近臉上的痘痘釘子戶還是堅毅不拔的感覺，而且還不是只有一戶...&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;這兩天不曉得為啥挺累的，從早上的&lt;strong&gt;醒來就接近遲到&lt;&#x2F;strong&gt;狀態開始&lt;&#x2F;p&gt;
 &lt;p&gt;不曉得啥時開始，養成了個怪習慣，周間約略會醒的時間是由星期一決定，只要那周星期一沒遲到，基本上整周就會提早醒，但也就只是在不遲到的時間醒來，反之則是整個星期都在遲到的邊緣踩線，所以超級羨慕能夠在固定時間醒來，而且還不會賴床的人&lt;&#x2F;p&gt;
 &lt;p&gt;至於為什麼會這樣，根據推測，應該是因為我的房間沒有窗戶，感受不到陽光照耀，就不容易醒來，當然也有可能是因為我太晚睡...想當然而有陣子我也是很羨慕房間有窗的人，不過現在為了好入眠，我習慣戴眼罩入睡，就算房間真的有窗，感覺也派不上用場了&lt;&#x2F;p&gt;
@@ -84,6 +118,7 @@
         <content type="html" xml:base="https://molamo.github.io/blog/blog/3-gym-trainning/">&lt;p&gt;又是來不及寫而有危機感的一天(?&lt;&#x2F;p&gt;
 &lt;p&gt;好久沒在家用104鍵盤了，不曉得是不是這樣，按起來有種濃濃的接觸不良感...
 按這個也不順，按那個也不順，看來最近要乖乖地按這把海盜青&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;昨天教練臨時把原本安排在星期四的課挪到今天，個人課的好處就是臨時有事喬一下，兩邊都同意就好講話&lt;&#x2F;p&gt;
 &lt;p&gt;今天一開始就是腿推，第二組開始在腳底多加了軟墊，大腿後側在踩的時候確實比較有感，接下來是雙手拿壺鈴，挺胸往前彎再起身，一開始是4公斤，第二組換成了8公斤，整個無法掌握節奏，不曉得要救手還是救背，後續再換回4公斤壺鈴，雖然比較輕些，但是比較能專注在大腿後側肌肉的發力上；然後是胸推機器的使用，這個機器第一次用，不過還算輕鬆，只要坐穩挺胸，手往前推跟收回就好，下次自己練感覺可以看狀況加重量；再接著是手心朝自己的拉槓，練二頭肌跟背部兩側的肌肉，打完收工&lt;&#x2F;p&gt;
 &lt;p&gt;今天在腿推時跟教練討論了一下目前的飲食狀況&lt;&#x2F;p&gt;
@@ -113,6 +148,7 @@
         <id>https://molamo.github.io/blog/blog/2-thoughts-about-ai-and-search/</id>
         
         <content type="html" xml:base="https://molamo.github.io/blog/blog/2-thoughts-about-ai-and-search/">&lt;p&gt;才第二天，我已經感覺到挑戰快失敗了(?&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;今天忙著讓 ChatGPT 教我怎麼寫程式，不知不覺也到了下班時間，希望明天能夠順順利利的處理好到我要的狀態&lt;&#x2F;p&gt;
 &lt;p&gt;現在記憶力真的大不如前，很多需求都是隱約有想法，實作時瘋狂 google 或是問 ChatGPT，再去調適出心中理想的模樣，說起來有好有壞，以產出結果來說應該是好的吧?&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;guan-yu-google-yu-chatgpt&quot;&gt;關於 google 與 ChatGPT&lt;&#x2F;h1&gt;
