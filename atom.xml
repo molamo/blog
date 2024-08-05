@@ -5,8 +5,61 @@
     <link rel="self" type="application/atom+xml" href="https://molamo.github.io/blog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-08-03T00:00:00+00:00</updated>
+    <updated>2024-08-05T00:00:00+00:00</updated>
     <id>https://molamo.github.io/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>跟辣椒醬無關的重訓雜談</title>
+        <published>2024-08-05T00:00:00+00:00</published>
+        <updated>2024-08-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              KalaKala
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/8-gym-tranning/"/>
+        <id>https://molamo.github.io/blog/blog/8-gym-tranning/</id>
+        
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/8-gym-tranning/">&lt;p&gt;麟洋拿金牌，台股打九折慶祝~原本看起來很舒服的未實現損益，瞬間少了不少，哭r&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;朋友說下手買了一台OSIM的按摩椅，瞄了一下規格，改天找老媽一起去試看看好了，家裡空間其實不算大，但是這台特化過，可以放在一般椅子上，價格來說也不算太貴...真的是有點心動阿...&lt;&#x2F;p&gt;
+&lt;p&gt;今天在 HackerNews 上看到一篇&lt;a href=&quot;https:&#x2F;&#x2F;successfulsoftware.net&#x2F;2024&#x2F;08&#x2F;04&#x2F;making-your-own-hot-sauce&#x2F;&quot;&gt;自己做辣椒醬&lt;&#x2F;a&gt;的文跟&lt;a href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41154334&quot;&gt;討論串&lt;&#x2F;a&gt;，真是看的我也想自己來試做看看，不過這不是重點，主要是我另外點了部落格主其他的文章，看了他談論自己減重的文，大致瀏覽後，覺得現在的人在談減重時，真的都相對理性也比較講求根據&lt;&#x2F;p&gt;
+&lt;p&gt;雖然我是到最近覺得年紀跟健康已經到了不得不在意的程度，最重要的原因其實是健身房離家更近了(?，只能開始真正實行重訓跟減脂，但是在這之前其實也是一直有在注意實作過程中該怎麼進行&lt;&#x2F;p&gt;
+&lt;p&gt;上健身房應該也有兩個多月了，一口氣刷了20堂的教練課，每星期使用兩堂，一堂一小時，操作也以動作標準為主，沒課的日子看心情排一天休息，剩下的就是吃過飯後去踩踩腳踏車消耗一下熱量，偶爾器材區人不多時，自己再挑三組動作練一次後再去踩個腳踏車&lt;&#x2F;p&gt;
+&lt;p&gt;目前來說體態上肉眼可見的改變，體重則是脂肪少兩公斤，肌肉多一公斤，一來二去的，，僅少了一公斤多左右，畢竟在這些日子裡，有意識的未實際的執行飲食控制，僅將早上的帶糖罐裝咖啡換成了無糖豆漿，剩下的就靠運動量決勝負!!(?&lt;&#x2F;p&gt;
+&lt;p&gt;起碼原本 inbody 上自己看不下去的 C 已經有些許改變了，接下來陸續把飲食的部份進行調整，然後讓它慢慢長的像 I 了&lt;&#x2F;p&gt;
+&lt;p&gt;住的地方旁邊就有健身房，真的是就算外面雨下的再大，也找不到藉口不去踩腳踏車啊...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>周末娛樂</title>
+        <published>2024-08-04T00:00:00+00:00</published>
+        <updated>2024-08-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              KalaKala
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/7-poe-patch-3-25/"/>
+        <id>https://molamo.github.io/blog/blog/7-poe-patch-3-25/</id>
+        
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/7-poe-patch-3-25/">&lt;p&gt;恭喜麟洋拿下第二面奧運金牌~&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;今天好像沒有特別想寫的，從上星期六是 POE 3.25 的新賽季，這遊戲平常就只是坐在電腦前消磨時間為主，幾乎每次新賽季也是呆呆的打地圖到打不動，就不上線了(爆&lt;&#x2F;p&gt;
+&lt;p&gt;畢竟 POE 的玩法太多要注意的地方，尤其是武器的製作更是複雜，如果沒熟人帶光是自己研究頭就很大，3.24 那個埋屍體的我埋個兩三次就不想玩了，可以說根本沒有在研究各種機制跟策略，最擅長的就是找個輕鬆的 build，然後盡量抄的很像，而且我常常會打到手痛，所以後來就每天輕鬆地刷一下，一直到刷膩就等下個賽季&lt;&#x2F;p&gt;
+&lt;p&gt;這次的改版內容，讓人有種這傢伙終於要被放生的感覺，連農場物語都放進了這次賽季，不過，個人還是維持原本的作法，每天稍微刷下就好，就不過度沉迷了(?&lt;&#x2F;p&gt;
+&lt;p&gt;硬要說不一樣的話，這次從原本慣用的元素使爆炸箭換成了刺客丟毒藥，省去了找主手武器的麻煩，但是要跟怪近距離接觸還是覺得有點焦慮(?，最終仍是帶上了老朋友—神聖圖騰拿來引怪自己躲在後面丟毒藥瓶，比較傷心的是明明迷宮網的地圖總算看懂了，但是刷不到彈跳毒藥，倒是刷出了BAMA build 的MA，還是在暗示我該換一下技能ㄋ?&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>雜感</title>
         <published>2024-08-03T00:00:00+00:00</published>
