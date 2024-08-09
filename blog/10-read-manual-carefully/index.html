@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="description" content="QQQQQQ">
+        
+
+        <title>Little Challenge</title>
+
+        
+            <link rel="stylesheet" href="https://molamo.github.io/blog/theme.css">
+        
+        
+    </head>
+    <body>
+        <div class="content">
+        
+        
+            <header>
+                <div class="header-left">
+                    <a href="https:&#x2F;&#x2F;molamo.github.io&#x2F;blog&#x2F;" class="logo">Little Challenge</a>
+                </div>
+                <div class="header-right">
+                    <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                      <ul>
+                        
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/blog/">
+                                    <span itemprop="name">Blogs</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/Notes/">
+                                    <span itemprop="name">Note</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/about/">
+                                    <span itemprop="name">About</span>
+                                </a>
+                            </li>
+                        
+                        
+                        
+                      </ul>
+                    </nav>
+                </div>
+            </header>
+        
+        
+        <main>
+            
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <div itemprop="headline">
+        <h1>請仔細詳閱說明書</h1>
+        <div class="border"></div>
+        <time datetime="2024-08-07" class="date" itemprop="datePublished">
+            07 Aug 2024
+        </time>
+    </div>
+    <div itemprop="articleBody">
+        <p>結果還是棄毒藥回到爆炸圖騰的懷抱，重練，嗚嗚嗚....</p>
+<hr />
+<p>我自認還蠻喜歡看說明書的，基本上每個新東西入手時都會看過說明書確定一下各功能大致的作用...</p>
+<p>請注意，只有<strong>大致</strong></p>
+<p>事情是這樣子的，昨天設置時照著保哥在網路上寫好的文件，其實整體算是蠻順利的，不過，帳號登入時並不會直接在進入到我指定的資料夾，就這樣白忙了昨天一個下午跟今天一個上午...</p>
+<p>最終我的推斷是因為沒吃到設定，才會怎麼都不聽話，順著這個思考，找了 OpenSSH 怎麼 debug ，才確定是跟我預想的一樣</p>
+<p>也終於發現到根本就是一樁慘劇，如果沒有用 debug 找到去哪裡取設定檔，我大概到今天下班都還在輪迴裡轉圈圈吧</p>
+<h1 id="xie-lei-can-kao">血淚參考</h1>
+<h2 id="openssh-debug">OpenSSH Debug</h2>
+<p>登入的時候在帳號前面 帶上 <code>-v</code> or <code>-vv</code> or <code>-vvv</code> ，v越多，出來的資料越詳細(?</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>ssh -v user@localhost
+</span><span>ssh -vv
+</span><span>ssh -vvv
+</span></code></pre>
+<p>Referrence : <a rel="noopener" target="_blank" href="https://www.tecmint.com/enable-debugging-mode-in-ssh/">Enable Debugging Mode in SSH to Troubleshoot Connectivity Issues</a></p>
+<h2 id="ru-he-an-zhuang-openssh-yu-sftp-she-ding">如何安裝 OpenSSH 與 SFTP 設定</h2>
+<p>基本上直接參考保哥寫的安裝文件就可以了</p>
+<ul>
+<li>先安裝好 OpenSSH Server，<a rel="noopener" target="_blank" href="https://blog.miniasp.com/post/2021/12/11/How-to-setup-OpenSSH-Server-in-Windows">如何在 Windows 正確的安裝與設定 OpenSSH Server 服務</a>
+<ul>
+<li>保哥出文時間上比較舊一點，黑暗執行序也有一篇，時間相對新些，有些細節可以參考
+<a rel="noopener" target="_blank" href="https://blog.darkthread.net/blog/win32-openssh/">Windows OpenSSH 伺服器筆記</a></li>
+</ul>
+</li>
+<li>接著設定SFTP，<a rel="noopener" target="_blank" href="https://blog.miniasp.com/post/2021/12/12/Enhanced-Security-for-SFTP-SSH-File-Transfer-Protocol-on-Windows">如何在 Windows 架設高安全性的 SFTP (SSH File Transfer Protocol) 伺服器</a>
+<ul>
+<li>主要是在系統設置的SFTP用帳號跟指定資料夾權限的設置</li>
+<li>這邊有個點是， sshd_config 這個檔案是在 <code>C:\\ProgramData\ssh\</code>下，我就是這個地方沒注意到，一直在改 <code>ProgramFile\OpenSSH</code>下的 sshd_config ，才讓自己浪費了一堆時間...血淚阿...Orz</li>
+</ul>
+</li>
+</ul>
+<h2 id="tong-chang-jia-ying">同場加映</h2>
+<p>update : 2024/08/08</p>
+<p>在另外一台實際要操作的機器安裝後，在本機登入確認結果時，出現了下面的文字，光看文字感覺有點驚悚，害我趕緊google一下發生甚麼事...</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+</span><span>@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+</span><span>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+</span><span>IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+</span><span>Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+</span><span>It is also possible that a host key has just been changed.
+</span><span>The fingerprint for the ECDSA key sent by the remote host is
+</span><span>SHA256:IKjWttsHi5qcCOsZnmQG39rWVnbfjNXq14CVJDUMloY.
+</span><span>Please contact your system administrator.
+</span><span>Add correct host key in C:\\Users\\Administrator/.ssh/known_hosts to get rid of this message.
+</span><span>Offending ECDSA key in C:\\Users\\Administrator/.ssh/known_hosts:1
+</span><span>ECDSA host key for localhost has changed and you have requested strict checking.
+</span><span>Host key verification failed.
+</span><span>
+</span></code></pre>
+<p>簡單來說就是主機的key跟跟我原本保存的key不一致造成，這台機器本來就有安裝過 OpenSSH，我移除後重新安裝過，解決的方法就是<code>刪掉那個key</code>，讓他可以重新產生</p>
+<ul>
+<li>手動刪掉 <code>C:\\Users\\登入/.ssh/known_hosts</code> 下的檔案</li>
+<li>使用 ssh-keygen 移除</li>
+</ul>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>ssh-keygen -R localhost
+</span></code></pre>
+
+    </div>
+</article>
+
+        </main>
+        
+        <footer>
+            
+            <div class="border"></div>
+            <div class="footer">
+                <small class="footer-left">
+                    Copyright &copy; KalaKala
+                </small>
+                <small class="footer-right">
+                    Powered by <a href="https://www.getzola.org">Zola</a> | Theme <a href="https://github.com/barlog-m/oceanic-zen">Oceanic Zen</a>
+                </small>
+            </div>
+        
+        </footer>
+    
+        </div>
+    </body>
+</html>
