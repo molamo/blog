@@ -5,12 +5,12 @@
     <link rel="self" type="application/atom+xml" href="https://molamo.github.io/blog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-08-11T00:00:00+00:00</updated>
+    <updated>2024-08-14T00:00:00+00:00</updated>
     <id>https://molamo.github.io/blog/atom.xml</id>
     <entry xml:lang="en">
-        <title>熱量大作戰(誤)</title>
-        <published>2024-08-11T00:00:00+00:00</published>
-        <updated>2024-08-11T00:00:00+00:00</updated>
+        <title>窩有一個夢...</title>
+        <published>2024-08-14T00:00:00+00:00</published>
+        <updated>2024-08-14T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -20,25 +20,22 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/14-fight-with-calorie/"/>
-        <id>https://molamo.github.io/blog/blog/14-fight-with-calorie/</id>
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/17-i-have-a-dream/"/>
+        <id>https://molamo.github.io/blog/blog/17-i-have-a-dream/</id>
         
-        <content type="html" xml:base="https://molamo.github.io/blog/blog/14-fight-with-calorie/">&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.cna.com.tw&#x2F;news&#x2F;aspt&#x2F;202408110020.aspx&quot;&gt;林郁婷壓倒獲勝 巴黎奧運台灣2金5銅連2屆勇奪雙金&lt;&#x2F;a&gt;
-恭喜林郁婷用真本事拿下獎牌，早上醒來第一件事情就是關心這個消息(爆&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/17-i-have-a-dream/">&lt;p&gt;傍晚時，我的脖子總算沒有這麼不舒服了...雖然還是卡卡的&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
-&lt;p&gt;今天下午跟妹妹去了一趟好事多，接下來想要開始把晚餐的熱量逐步往下調整&lt;&#x2F;p&gt;
-&lt;p&gt;講到算熱量，我在這種地方不是特別想精確的個性就又會跑出來，那天被朋友問到底每天能吃多少時還支支嗚嗚的回答不出來w&lt;&#x2F;p&gt;
-&lt;p&gt;目前大概就是早餐跟午餐還維持原本，晚餐的飲食則是看老媽當天桌上熱量多寡(?，來決定要不要自己換菜色，不過這樣的話，感覺很快就會因為剩菜變很多直接被翻白眼...&lt;&#x2F;p&gt;
-&lt;p&gt;剛剛突然想到可以用 ChatGPT 來簡單計算各餐所需熱量跟建議菜色，試了一下感覺好像還可以，感覺會讓人沉迷在問它建議菜單上w&lt;&#x2F;p&gt;
-&lt;p&gt;最近嘴饞時就靠著無糖豆漿度過，感覺接下來可以自己考慮弄豆漿了，老媽有講了一個不用手一直攪拌的簡易版本，確定了一下應該是可行，就決定是這樣了&lt;&#x2F;p&gt;
-&lt;p&gt;話說回來，今天去好事多好像也沒真的買到啥減少熱量的東西...&lt;&#x2F;p&gt;
+&lt;p&gt;人，總是會對於不擅長的事物抱有些許嚮往...&lt;&#x2F;p&gt;
+&lt;p&gt;自認是個效率追求型的人，因此在某些細節上，我總是不吝於記住能夠節省時間的快捷鍵，不過，相對於倉頡跟vim操作這種需要大量練習才能讓肌肉慢慢記憶的學習，在目前真的是很難直接取代目前使用的新注音輸入跟windows快捷操作，也因此每年我都會在某個時節或是某個時間點回想起這件事，然後，大約維持一個星期左右的學習跟使用，然後，就沒有然後了...&lt;&#x2F;p&gt;
+&lt;p&gt;可能年紀大了，對於學習新東西也開始有了抗拒感(應該是人的問題比較多，所以我真的很佩服那些能夠很明快切換到不熟悉領域的人&lt;&#x2F;p&gt;
+&lt;p&gt;我覺得我的人生裡，一定要在生命結束前學會使用倉頡跟vim的操作(?&lt;&#x2F;p&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
-        <title>[碎碎唸]肩頸痠痛...</title>
-        <published>2024-08-10T00:00:00+00:00</published>
-        <updated>2024-08-10T00:00:00+00:00</updated>
+        <title>落枕...</title>
+        <published>2024-08-13T00:00:00+00:00</published>
+        <updated>2024-08-13T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -48,22 +45,22 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/13-need-take-a-break/"/>
-        <id>https://molamo.github.io/blog/blog/13-need-take-a-break/</id>
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/16-stiff-neck/"/>
+        <id>https://molamo.github.io/blog/blog/16-stiff-neck/</id>
         
-        <content type="html" xml:base="https://molamo.github.io/blog/blog/13-need-take-a-break/">&lt;p&gt;肯定是因為最近 POE 又打太過頭造成...&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/16-stiff-neck/">&lt;p&gt;今天久違的去客戶那邊坐坐，但是好像落枕(?了，右邊脖子一整天都不太舒服...&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
-&lt;p&gt;一直以來，只要打電動就會不自覺的讓肩頸肌肉在一種緊繃的狀態，以前都不覺得有啥問題，不過現在的話，只要持續個三四天，兩邊的肩膀就會非常緊繃，出現不舒服的狀態&lt;&#x2F;p&gt;
-&lt;p&gt;逼得我每次 POE 開季時一天只走一兩篇章節就休息，大概一個星期左右才會把主線跑完，最近又是剛開季狀態，所以幾乎也是偷空就嚕章節，毒藥刺客既然不順手，又換回老本行的玩圖騰爆炸箭，這次因為前面的刺客關係，試了其他的技能石，回到女巫時除了毒藥存的裝備，也嘗試用其他技能進行拓荒，感覺還可以&lt;&#x2F;p&gt;
-&lt;p&gt;不過最順手的還是火舌圖騰沿路燒，燒到30職業昇華完成後，直接換上4L的爆炸箭，總算順多了，然後手就痛了....哭r&lt;&#x2F;p&gt;
-&lt;p&gt;今天也來到了第5章，發現喚醒幽魂好像挺有趣的，感覺之後找個時間來試試&lt;&#x2F;p&gt;
+&lt;p&gt;晚上到家終於想到了 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.plurk.com&#x2F;p&#x2F;n2hshs&quot;&gt;落枕自療&lt;&#x2F;a&gt; ，很久以前看過的這篇噗文，然後來實驗看看&lt;&#x2F;p&gt;
+&lt;p&gt;照著做了，不適感感覺是有比較減輕沒錯，但是脖子還是會痛，可能我的脖子並不是真的落枕吧...&lt;&#x2F;p&gt;
+&lt;p&gt;先來個熱敷，睡前再貼個藥膏好了，明天晚上還有訓練...希望能順利...&lt;&#x2F;p&gt;
+&lt;p&gt;噗浪跟推特書籤真的堆了不少東西，應該要找個時間整理一下了...&lt;&#x2F;p&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
-        <title>英文筆記</title>
-        <published>2024-08-09T00:00:00+00:00</published>
-        <updated>2024-08-09T00:00:00+00:00</updated>
+        <title>[雜]阿北初四ㄌ</title>
+        <published>2024-08-12T00:00:00+00:00</published>
+        <updated>2024-08-12T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -73,23 +70,12 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/12-en-note/"/>
-        <id>https://molamo.github.io/blog/blog/12-en-note/</id>
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/15-abe/"/>
+        <id>https://molamo.github.io/blog/blog/15-abe/</id>
         
-        <content type="html" xml:base="https://molamo.github.io/blog/blog/12-en-note/">&lt;p&gt;昨天的動作真是好好地刺激了屁屁，今天的屁屁好酸...&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;終於要沒東西寫了!!!&lt;&#x2F;p&gt;
-&lt;p&gt;只好來做個英文小筆記&lt;&#x2F;p&gt;
-&lt;p&gt;Refference : 宅宅新聞 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;news.gamme.com.tw&#x2F;1768638&quot;&gt;《刪掉這東西》這句英文留言讓日本繪師誤會了 留中文的「酷」也容易引發問題？&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Delete this!!
-=&amp;gt;  &lt;strong&gt;這東西太讚，我快受不了，快刪掉！&lt;&#x2F;strong&gt;
-=&amp;gt;  &lt;strong&gt;對我來說刺激太強了，快刪掉！&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;slay : 殺戮
-=&amp;gt;引申 &lt;strong&gt;這個真讚&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;the shit 不同 shit
-=&amp;gt; 引申 &lt;strong&gt;太讚ㄌ!!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;GOAT : Greatese Of All Time
-=&amp;gt;史上最棒&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/15-abe/">&lt;p&gt;奧運結束了，台灣政壇又迎來大場面阿...時間卡的太剛好吧...&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;阿北!阿北!!初四了!!!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;今天就這樣.__.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
