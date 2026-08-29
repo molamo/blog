@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="description" content="QQQQQQ">
+        
+
+        <title>Little Challenge</title>
+
+        
+            <link rel="stylesheet" href="https://molamo.github.io/blog/theme.css">
+        
+        
+    </head>
+    <body>
+        <div class="content">
+        
+        
+            <header>
+                <div class="header-left">
+                    <a href="https:&#x2F;&#x2F;molamo.github.io&#x2F;blog&#x2F;" class="logo">Little Challenge</a>
+                </div>
+                <div class="header-right">
+                    <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                      <ul>
+                        
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/blog/">
+                                    <span itemprop="name">Blogs</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/thai/">
+                                    <span itemprop="name">Thai</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/Notes/">
+                                    <span itemprop="name">Note</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/about/">
+                                    <span itemprop="name">About</span>
+                                </a>
+                            </li>
+                        
+                        
+                        
+                      </ul>
+                    </nav>
+                </div>
+            </header>
+        
+        
+        <main>
+            
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <div itemprop="headline">
+        <h1>生鏽不生鏽</h1>
+        <div class="border"></div>
+        <time datetime="2024-08-26" class="date" itemprop="datePublished">
+            26 Aug 2024
+        </time>
+    </div>
+    <div itemprop="articleBody">
+        <p>也許開始學習新東西，透過紀錄就可以減少不知道每天要寫甚麼的困境(?</p>
+<p>基本上就是一些簡單的筆記，像是指令或是語法，不會有高深的東西，那不適合我</p>
+<hr />
+<p>整體是跟著某水管主的教學跟著動手後再看過一次官方文件補齊影片沒有的內容</p>
+<p>水管主影片: <a rel="noopener" target="_blank" href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ">Rust Programming Tutorial</a> by <a rel="noopener" target="_blank" href="https://www.youtube.com/@TechWithTim">Tech With Tim</a></p>
+<p>官方文件中文版 : <a rel="noopener" target="_blank" href="https://rust-lang.tw/book-tw/title-page.html">Rust 程式設計語言</a></p>
+<h1 id="jin-ri-jin-du">今日進度</h1>
+<ul>
+<li>水管
+<ul>
+<li>Rust Tutorial #1 - Introduction To Rust Programming</li>
+<li>Rust Tutorial #2 - Using Rust Tools (cargo, rustfmt)</li>
+</ul>
+</li>
+<li>官方文檔
+<ul>
+<li><a rel="noopener" target="_blank" href="https://rust-lang.tw/book-tw/ch01-00-getting-started.html">開始入門</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="zong-zhi-xian-ba-rust-an-zhuang-qi-lai">總之先把 Rust 安裝起來</h1>
+<p>動手吧!不想生鏽的人們!</p>
+<h1 id="rust-pao-qi-lai">Rust 跑起來</h1>
+<ul>
+<li>副檔名為 .rs</li>
+<li>程式入口為 main.rs，以及<code>fn main() {}</code></li>
+</ul>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#65737e;">//大家最愛的哈囉世界
+</span><span style="color:#b48ead;">fn </span><span style="color:#8fa1b3;">main</span><span>() {
+</span><span>    println!(&quot;</span><span style="color:#a3be8c;">Hello World</span><span>&quot;);
+</span><span>}
+</span></code></pre>
+<ul>
+<li>建置程式語法 <code>rustc file.rs</code></li>
+</ul>
+<h1 id="rust-gong-ju-zhi-cargo">Rust 工具之 cargo</h1>
+<p>下面這段取自官方文件:</p>
+<blockquote>
+<p>Cargo 是 Rust 的建構系統與套件管理工具。大部分的 Rustaceans 都會用此工具來管理他們的專案，因為 Cargo 能幫你處理很多任務，像是建構你的程式碼、下載你程式碼所需要的依賴函式庫並建構它們。我們常簡稱程式碼所需要用到的函式庫為<strong>依賴（dependencies）</strong>。</p>
+</blockquote>
+<ul>
+<li><code>cargo new project_name</code> 起新 Rust 專案以及產生專案所需的簡單結構</li>
+<li><code>cargo.toml</code>  專案配置文件，採 TOML 格式</li>
+<li><code>cargo build</code> 建置專案</li>
+<li><code>cargo run</code> 建置並執行專案，常用</li>
+<li><code>cargo check</code> 確認專案可以順利建置，但無產出</li>
+<li>建置結果存在資料夾下的<code>target/debug</code>裡</li>
+</ul>
+<h1 id="rust-gong-ju-zhi-rustfmt">Rust 工具之 rustfmt</h1>
+<ul>
+<li>可以格式化程式碼的工具，避免多采多姿的程式碼長相</li>
+<li><code>rustfmt filename.rs</code></li>
+</ul>
+<h1 id="xin-de">心得</h1>
+<p>用 SublimeText 不曉得為啥會自動補完，但是用VS Code竟然沒有這麼聰明</p>
+
+    </div>
+</article>
+
+        </main>
+        
+        <footer>
+            
+            <div class="border"></div>
+            <div class="footer">
+                <small class="footer-left">
+                    Copyright &copy; KalaKala
+                </small>
+                <small class="footer-right">
+                    Powered by <a href="https://www.getzola.org">Zola</a> | Theme <a href="https://github.com/barlog-m/oceanic-zen">Oceanic Zen</a>
+                </small>
+            </div>
+        
+        </footer>
+    
+        </div>
+    </body>
+</html>

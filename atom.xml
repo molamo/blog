@@ -5,12 +5,12 @@
     <link rel="self" type="application/atom+xml" href="https://molamo.github.io/blog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-08-23T00:00:00+00:00</updated>
+    <updated>2024-11-27T00:00:00+00:00</updated>
     <id>https://molamo.github.io/blog/atom.xml</id>
     <entry xml:lang="en">
-        <title>自己賺錢才能想花就花</title>
-        <published>2024-08-23T00:00:00+00:00</published>
-        <updated>2024-08-23T00:00:00+00:00</updated>
+        <title>[雜]</title>
+        <published>2024-11-27T00:00:00+00:00</published>
+        <updated>2024-11-27T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -20,25 +20,39 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/26-pay-for-gym/"/>
-        <id>https://molamo.github.io/blog/blog/26-pay-for-gym/</id>
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/117-gym-note/"/>
+        <id>https://molamo.github.io/blog/blog/117-gym-note/</id>
         
-        <content type="html" xml:base="https://molamo.github.io/blog/blog/26-pay-for-gym/">&lt;p&gt;結果今天還是耍賴的在家滾來滾去，然後開了POE的新角想走死靈&lt;&#x2F;p&gt;
-&lt;p&gt;下場就是手好像又要廢了...(嘆&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/117-gym-note/">&lt;p&gt;不想上班，就是請假，所今天在家~&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
-&lt;p&gt;今天練肩，我覺得明天肩膀應該要廢了...&lt;&#x2F;p&gt;
-&lt;p&gt;下課時，教練說只剩下兩堂課，所以問是不是要續課程。&lt;&#x2F;p&gt;
-&lt;p&gt;以目前的狀況來說，當然還是先續，尤其現在手上算是有點閒錢可以關心自己的身體狀態，這樣的投資對於我這種懶惰的現代人也是必須的花費&lt;&#x2F;p&gt;
-&lt;p&gt;上次付費時，是一口氣買了20堂，目前來看應該會是一口氣買下40堂左右吧&lt;&#x2F;p&gt;
-&lt;p&gt;一星期兩堂，一個月用掉8堂課，維持目前的模式，40堂課可以撐上5個月吧，算下來應該是用到年底左右&lt;&#x2F;p&gt;
-&lt;p&gt;老媽今天買了市場的另一攤豆漿，剛剛喝起來味道跟另一間有點不太一樣，感覺不太秒ㄋ...&lt;&#x2F;p&gt;
+&lt;p&gt;上半身 :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;滑輪平行擴背&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;滑輪窄握下拉&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;史密斯滑輪雙手拉背單手 9公斤失敗，背外展兩手9公斤&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;史密斯最寬帶彈力繩引體，哭哭&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;機械輔助引體&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;跑步機時數6 14分&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
-        <title>I Hate It</title>
-        <published>2024-08-22T00:00:00+00:00</published>
-        <updated>2024-08-22T00:00:00+00:00</updated>
+        <title>[雜]</title>
+        <published>2024-11-21T00:00:00+00:00</published>
+        <updated>2024-11-21T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -48,22 +62,36 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/25-beer/"/>
-        <id>https://molamo.github.io/blog/blog/25-beer/</id>
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/111-gym-note/"/>
+        <id>https://molamo.github.io/blog/blog/111-gym-note/</id>
         
-        <content type="html" xml:base="https://molamo.github.io/blog/blog/25-beer/">&lt;p&gt;不想上班，就老實請假&lt;&#x2F;p&gt;
-&lt;p&gt;嗯，所以今天就直接送假單，希望明天有動力出門看電影...&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/111-gym-note/">&lt;p&gt;今天努力跟要搬到azure上的服務奮鬥，說順利也不順利，總歸是搞定了&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
-&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;switowski.com&#x2F;blog&#x2F;i-have-built-my-first-successful-side-project-and-i-hate-it&#x2F;&quot;&gt;I have Built My First Successful Side Project, and I Hate It&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;今天在 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41308599&quot;&gt;HeckNews&lt;&#x2F;a&gt; 上看到這篇，雖然我並沒有 SideProject，工作內容大部份也是以維護為主，看起來真是心有戚戚焉&lt;&#x2F;p&gt;
-&lt;p&gt;有時候看自己的工作職稱，真是覺得名不符實，還是來杯啤酒解解惆悵吧&lt;&#x2F;p&gt;
+&lt;p&gt;熱身&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;雙手長棍前後擺動，手不要拿得太寬，不然關節沒有鬆到&lt;&#x2F;li&gt;
+&lt;li&gt;雙手長棍繞圈圈&lt;&#x2F;li&gt;
+&lt;li&gt;背躺在滾筒上，雙手舉過頭部伸展，這個不累但有點痛苦&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;上半身&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;坐姿胸推，坐高點比較可以避免聳肩&lt;&#x2F;li&gt;
+&lt;li&gt;雙臂外展，夾胸&lt;&#x2F;li&gt;
+&lt;li&gt;雙臂外展，夾背&lt;&#x2F;li&gt;
+&lt;li&gt;不太一樣位置的胸推機，繼續練胸，上臂也有稍微練到&lt;&#x2F;li&gt;
+&lt;li&gt;窄划船，練下背&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;太容易因為代償造成聳肩...挺討厭的= =&lt;&#x2F;p&gt;
+&lt;p&gt;另外二頭跟三頭，教練讓我自己練，畢竟用器械的話，二頭三頭沒必要特別讓他花時間(爆
+也交代了可以拿啞鈴再加練一下前臂&lt;&#x2F;p&gt;
+&lt;p&gt;希望明天手腳還能動，我要帶按摩棒上班!!!&lt;&#x2F;p&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
-        <title>借錢ㄇ</title>
-        <published>2024-08-21T00:00:00+00:00</published>
-        <updated>2024-08-21T00:00:00+00:00</updated>
+        <title>[雜]</title>
+        <published>2024-11-19T00:00:00+00:00</published>
+        <updated>2024-11-19T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -73,14 +101,26 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/24-loan/"/>
-        <id>https://molamo.github.io/blog/blog/24-loan/</id>
+        <link rel="alternate" type="text/html" href="https://molamo.github.io/blog/blog/109-gym-note/"/>
+        <id>https://molamo.github.io/blog/blog/109-gym-note/</id>
         
-        <content type="html" xml:base="https://molamo.github.io/blog/blog/24-loan/">&lt;p&gt;好像好幾天沒commit回網站了&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://molamo.github.io/blog/blog/109-gym-note/">&lt;p&gt;所以說不要亂說話阿~接下來是努力增肌的一個月....QQ&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
-&lt;p&gt;最近常常收到銀行的個人信貸詢問電話，昨天心血來潮點進了他提供的申請網址看了一下，最高可以借到140萬，利率3.3趴，分85期(7年)在每個月本利還接近1萬9。&lt;&#x2F;p&gt;
-&lt;p&gt;利率有點高的fu，單純記錄一下就好...&lt;&#x2F;p&gt;
-&lt;p&gt;說起來現在比較不避諱借錢這件事，所以看到這種信貸的訊息還是都會加減注意一下&lt;&#x2F;p&gt;
+&lt;p&gt;熱身:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;前弓後直，手臂向上伸展後再向下往對邊伸展&lt;&#x2F;li&gt;
+&lt;li&gt;雙腳伸展，拉後面的筋&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;下半身，&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;器械深蹲，5公斤一組後，因為肩膀的關係，就換成扛槓的負重深蹲&lt;&#x2F;li&gt;
+&lt;li&gt;扛槓的負重深蹲，10下三組&lt;&#x2F;li&gt;
+&lt;li&gt;躺草皮，腳掛在TRX吊環上，抬臀收腿....這是個腳會抽筋的動作....&lt;&#x2F;li&gt;
+&lt;li&gt;器械趴著勾腿，上面那個動作也用了差不多的肌肉...累&lt;&#x2F;li&gt;
+&lt;li&gt;器械內收大腿，內側大腿果然很弱...14公斤就哭ㄌ&lt;&#x2F;li&gt;
+&lt;li&gt;器械外展大腿，外展一直有練，可以到36公斤，好像還ㄍ一ㄥ到41吧?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;回家就乖乖用滾筒伸展...擔心明天不能動....&lt;&#x2F;p&gt;
 </content>
         
     </entry>

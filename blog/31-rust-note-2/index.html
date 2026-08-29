@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="description" content="QQQQQQ">
+        
+
+        <title>Little Challenge</title>
+
+        
+            <link rel="stylesheet" href="https://molamo.github.io/blog/theme.css">
+        
+        
+    </head>
+    <body>
+        <div class="content">
+        
+        
+            <header>
+                <div class="header-left">
+                    <a href="https:&#x2F;&#x2F;molamo.github.io&#x2F;blog&#x2F;" class="logo">Little Challenge</a>
+                </div>
+                <div class="header-right">
+                    <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                      <ul>
+                        
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/blog/">
+                                    <span itemprop="name">Blogs</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/thai/">
+                                    <span itemprop="name">Thai</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/Notes/">
+                                    <span itemprop="name">Note</span>
+                                </a>
+                            </li>
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://molamo.github.io/blog/about/">
+                                    <span itemprop="name">About</span>
+                                </a>
+                            </li>
+                        
+                        
+                        
+                      </ul>
+                    </nav>
+                </div>
+            </header>
+        
+        
+        <main>
+            
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <div itemprop="headline">
+        <h1>生鏽雜記2</h1>
+        <div class="border"></div>
+        <time datetime="2024-08-28" class="date" itemprop="datePublished">
+            28 Aug 2024
+        </time>
+    </div>
+    <div itemprop="articleBody">
+        <p>8月好像要結束了，昨天量了inbody ，心情上又涼了</p>
+<p>冷氣還是要吹就是</p>
+<hr />
+<h1 id="jin-ri-jin-du">今日進度</h1>
+<ul>
+<li>水管
+<ul>
+<li>Rust Tutorial #3 - Variables, Constants and Shadowing</li>
+</ul>
+</li>
+<li>官方文檔
+<ul>
+<li><a rel="noopener" target="_blank" href="https://rust-lang.tw/book-tw/ch02-00-guessing-game-tutorial.html#%E8%A8%AD%E8%A8%88%E7%8C%9C%E8%AC%8E%E9%81%8A%E6%88%B2%E7%A8%8B%E5%BC%8F">設計猜謎遊戲程式</a></li>
+<li><a rel="noopener" target="_blank" href="https://rust-lang.tw/book-tw/ch03-01-variables-and-mutability.html">變數與可變性</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="bian-shu">變數</h1>
+<ul>
+<li>強型別，即使未給明確型別，建置時也會自動判斷型別</li>
+<li>分為可變與不可變(可不可重新給值)</li>
+</ul>
+<pre data-lang="Rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-Rust "><code class="language-Rust" data-lang="Rust"><span style="color:#b48ead;">let</span><span> x = </span><span style="color:#d08770;">5</span><span>; </span><span style="color:#65737e;">// 不可用 x = 4 再給值
+</span><span style="color:#b48ead;">let mut</span><span> y = </span><span style="color:#d08770;">4</span><span>; </span><span style="color:#65737e;">// 可用 y = 3  將 y assign為 3
+</span></code></pre>
+<ul>
+<li>變數基本都是不可變 immutable為主</li>
+</ul>
+<h1 id="chang-shu">常數</h1>
+<ul>
+<li><code>const</code></li>
+<li>設定時，變數名稱完整都大寫，下底線，給予型別以及初始值</li>
+</ul>
+<pre data-lang="Rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-Rust "><code class="language-Rust" data-lang="Rust"><span style="color:#b48ead;">const </span><span style="color:#d08770;">THREE_HOURS_IN_SECONDS</span><span>: </span><span style="color:#b48ead;">u32 </span><span>= </span><span style="color:#d08770;">60 </span><span>* </span><span style="color:#d08770;">60 </span><span>* </span><span style="color:#d08770;">3</span><span>;
+</span></code></pre>
+<ul>
+<li>不可再重新設定</li>
+</ul>
+<h1 id="zhe-bi">遮蔽</h1>
+<ul>
+<li>Shadowing</li>
+<li>有點像函數裡自己又一個函數，在<code>{}</code>中的變數是不會影響外面的變數</li>
+</ul>
+<pre data-lang="Rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-Rust "><code class="language-Rust" data-lang="Rust"><span style="color:#b48ead;">fn </span><span style="color:#8fa1b3;">main</span><span>() {
+</span><span>    </span><span style="color:#b48ead;">let</span><span> x = </span><span style="color:#d08770;">5</span><span>;
+</span><span>    </span><span style="color:#b48ead;">let</span><span> x = x + </span><span style="color:#d08770;">1</span><span>;
+</span><span>    {
+</span><span>        </span><span style="color:#b48ead;">let</span><span> x = x * </span><span style="color:#d08770;">2</span><span>;
+</span><span>        println!(&quot;</span><span style="color:#a3be8c;">x 在內部範圍的數值為：</span><span style="color:#d08770;">{x}</span><span>&quot;);
+</span><span>    }
+</span><span>    println!(&quot;</span><span style="color:#a3be8c;">x 的數值為：</span><span style="color:#d08770;">{x}</span><span>&quot;);
+</span><span>}
+</span></code></pre>
+<h1 id="xin-de">心得</h1>
+<ul>
+<li>暫時感受不到 Shadowing 的好處</li>
+<li>看水管主的影片，釋例講解的比較多</li>
+<li>ㄚㄚ 我又找到一個水管影片，是跟著官方文檔在講的，接下來就一起看好了
+<a rel="noopener" target="_blank" href="https://www.youtube.com/@letsgetrusty">Let's Get Rusty</a></li>
+</ul>
+
+    </div>
+</article>
+
+        </main>
+        
+        <footer>
+            
+            <div class="border"></div>
+            <div class="footer">
+                <small class="footer-left">
+                    Copyright &copy; KalaKala
+                </small>
+                <small class="footer-right">
+                    Powered by <a href="https://www.getzola.org">Zola</a> | Theme <a href="https://github.com/barlog-m/oceanic-zen">Oceanic Zen</a>
+                </small>
+            </div>
+        
+        </footer>
+    
+        </div>
+    </body>
+</html>
